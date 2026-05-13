@@ -291,10 +291,6 @@ int main(){
             exit(1);
         }
         strcpy(lastWord, next);
-
-        for(int teste = 0; teste < n; teste++){
-            printf("%s\n", possibleWords[teste]);
-        }
     }
     printf("Use the word %s\n\n", lastWord);
     free(currWord);
